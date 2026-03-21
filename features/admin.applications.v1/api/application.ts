@@ -1086,6 +1086,7 @@ export const getOIDCApplicationConfigurations = (): Promise<OIDCApplicationConfi
 
             const oidcConfigs: OIDCApplicationConfigurationInterface = {
                 authorizeEndpoint: response.data.authorization_endpoint,
+                cibaEndpoint: response.data.backchannel_authentication_endpoint,
                 dynamicClientRegistrationEndpoint: response.data.registration_endpoint,
                 endSessionEndpoint: response.data.end_session_endpoint,
                 introspectionEndpoint: response.data.introspection_endpoint,
@@ -1099,7 +1100,7 @@ export const getOIDCApplicationConfigurations = (): Promise<OIDCApplicationConfi
                 tokenRevocationEndpoint: response.data.revocation_endpoint,
                 userEndpoint: response.data.userinfo_endpoint,
                 webFingerEndpoint: response.data.webfinger_endpoint,
-                wellKnownEndpoint: `${ response.data.token_endpoint }/.well-known/openid-configuration`
+                wellKnownEndpoint: requestConfig.url
             };
 
             return Promise.resolve(oidcConfigs);

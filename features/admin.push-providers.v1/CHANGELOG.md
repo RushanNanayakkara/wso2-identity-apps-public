@@ -1,5 +1,16 @@
 # @wso2is/admin.push-providers.v1
 
+## 1.1.1
+
+### Patch Changes
+
+- [#9875](https://github.com/wso2/identity-apps/pull/9875) [`75dc24fe314a0c3e90fba9b52eb2974801bd464d`](https://github.com/wso2/identity-apps/commit/75dc24fe314a0c3e90fba9b52eb2974801bd464d) Thanks [@RavindiFernando](https://github.com/RavindiFernando)! - Revert Axios and SDK version bumps
+
+- Updated dependencies [[`75dc24fe314a0c3e90fba9b52eb2974801bd464d`](https://github.com/wso2/identity-apps/commit/75dc24fe314a0c3e90fba9b52eb2974801bd464d)]:
+  - @wso2is/admin.template-core.v1@1.6.1
+  - @wso2is/admin.feature-gate.v1@1.9.2
+  - @wso2is/admin.core.v1@2.55.3
+
 ## 1.1.0
 
 ### Minor Changes

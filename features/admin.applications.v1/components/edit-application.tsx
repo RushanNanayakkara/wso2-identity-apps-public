@@ -240,6 +240,12 @@ export const EditApplication: FunctionComponent<EditApplicationPropsInterface> =
             OrganizationFeatureDictionaryKeys.OrganizationApplicationAdvancedSettings
         ));
 
+    const isTokenIssuerSelectionEnabled: boolean = isFeatureEnabled(
+        organizationFeatureConfig,
+        OrganizationManagementConstants.FEATURE_DICTIONARY.get(
+            OrganizationFeatureDictionaryKeys.OrganizationApplicationTokenIssuerSelection
+        ));
+
     const isApplicationEditProvisioningSettingsEnabled: boolean = isFeatureEnabled(featureConfig?.applications,
         ApplicationManagementConstants.FEATURE_DICTIONARY.get("APPLICATION_EDIT_PROVISIONING_SETTINGS"));
 
@@ -960,8 +966,9 @@ export const EditApplication: FunctionComponent<EditApplicationPropsInterface> =
             }
             if (isFeatureEnabled(featureConfig?.applications,
                 ApplicationManagementConstants.FEATURE_DICTIONARY.get("APPLICATION_EDIT_INFO"))
-                 && !isSubOrganization()
-                 && !isMyAccount) {
+                 && !isFragmentApp
+                 && !isMyAccount
+                 && (isSubOrganization() ? isTokenIssuerSelectionEnabled : true)) {
 
                 applicationConfig.editApplication.
                     isTabEnabledForApp(
@@ -1032,7 +1039,7 @@ export const EditApplication: FunctionComponent<EditApplicationPropsInterface> =
                 menuItem: t("applications:edit.sections.sharedAccess.tabName"),
                 render: SharedAccessTabPane
             },
-            {
+            ...(isSubOrganization() ? isTokenIssuerSelectionEnabled : true) && [ {
                 componentId: "info",
                 "data-tabid": ApplicationTabIDs.INFO,
                 menuItem: {
@@ -1040,7 +1047,7 @@ export const EditApplication: FunctionComponent<EditApplicationPropsInterface> =
                     icon: "info circle grey"
                 },
                 render: InfoTabPane
-            }
+            } ]
         ];
     };
 

@@ -189,10 +189,16 @@ export interface approvalWorkflowsNS {
                     column: string,
                     configured: string
                 },
-                confirmClear: {
+                confirmDelete: {
                     content: string,
                     message: string,
                     title: string
+                },
+                fields: {
+                    initiatorClaim: string,
+                    userClaim: string,
+                    valueRequired: string,
+                    workflowClaimSelector: string
                 }
             }
         };

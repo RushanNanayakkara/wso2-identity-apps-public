@@ -1,5 +1,20 @@
 # @wso2is/identity-apps-core
 
+## 4.0.1
+
+### Patch Changes
+
+- [#9875](https://github.com/wso2/identity-apps/pull/9875) [`75dc24fe314a0c3e90fba9b52eb2974801bd464d`](https://github.com/wso2/identity-apps/commit/75dc24fe314a0c3e90fba9b52eb2974801bd464d) Thanks [@RavindiFernando](https://github.com/RavindiFernando)! - Revert Axios and SDK version bumps
+
+- Updated dependencies [[`75dc24fe314a0c3e90fba9b52eb2974801bd464d`](https://github.com/wso2/identity-apps/commit/75dc24fe314a0c3e90fba9b52eb2974801bd464d)]:
+  - @wso2is/theme@2.9.5
+
+## 4.0.0
+
+### Major Changes
+
+- [#9825](https://github.com/wso2/identity-apps/pull/9825) [`2a5a8feb389c2476e50e730a11142f78ded5aed9`](https://github.com/wso2/identity-apps/commit/2a5a8feb389c2476e50e730a11142f78ded5aed9) Thanks [@pavinduLakshan](https://github.com/pavinduLakshan)! - Major version bump for the upcoming release
+
 ## 3.7.2
 
 ### Patch Changes

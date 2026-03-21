@@ -1,5 +1,17 @@
 # @wso2is/admin.feature-gate.v1
 
+## 1.9.2
+
+### Patch Changes
+
+- [#9875](https://github.com/wso2/identity-apps/pull/9875) [`75dc24fe314a0c3e90fba9b52eb2974801bd464d`](https://github.com/wso2/identity-apps/commit/75dc24fe314a0c3e90fba9b52eb2974801bd464d) Thanks [@RavindiFernando](https://github.com/RavindiFernando)! - Revert Axios and SDK version bumps
+
+- Updated dependencies [[`75dc24fe314a0c3e90fba9b52eb2974801bd464d`](https://github.com/wso2/identity-apps/commit/75dc24fe314a0c3e90fba9b52eb2974801bd464d)]:
+  - @wso2is/admin.organizations.v1@2.28.2
+  - @wso2is/admin.core.v1@2.55.3
+  - @wso2is/access-control@3.5.3
+  - @wso2is/core@2.12.10
+
 ## 1.9.1
 
 ### Patch Changes

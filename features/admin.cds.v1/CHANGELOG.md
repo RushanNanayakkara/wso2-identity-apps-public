@@ -1,5 +1,29 @@
 # @wso2is/admin.cds.v1
 
+## 1.6.1
+
+### Patch Changes
+
+- [#9875](https://github.com/wso2/identity-apps/pull/9875) [`75dc24fe314a0c3e90fba9b52eb2974801bd464d`](https://github.com/wso2/identity-apps/commit/75dc24fe314a0c3e90fba9b52eb2974801bd464d) Thanks [@RavindiFernando](https://github.com/RavindiFernando)! - Revert Axios and SDK version bumps
+
+- Updated dependencies [[`c834b18928cdfc09710c5e7067668206d006e68a`](https://github.com/wso2/identity-apps/commit/c834b18928cdfc09710c5e7067668206d006e68a), [`877d726905edf898c33c615cd887f8ed0a071a0e`](https://github.com/wso2/identity-apps/commit/877d726905edf898c33c615cd887f8ed0a071a0e), [`75dc24fe314a0c3e90fba9b52eb2974801bd464d`](https://github.com/wso2/identity-apps/commit/75dc24fe314a0c3e90fba9b52eb2974801bd464d), [`b75bb804c799c0e795e8580d35eedb8993d0ecc4`](https://github.com/wso2/identity-apps/commit/b75bb804c799c0e795e8580d35eedb8993d0ecc4)]:
+  - @wso2is/admin.applications.v1@2.41.28
+  - @wso2is/admin.core.v1@2.55.3
+  - @wso2is/access-control@3.5.3
+  - @wso2is/core@2.12.10
+
+## 1.6.0
+
+### Minor Changes
+
+- [#9851](https://github.com/wso2/identity-apps/pull/9851) [`889ba146a770d03968eed6bd8ecdf9b2f41df5e4`](https://github.com/wso2/identity-apps/commit/889ba146a770d03968eed6bd8ecdf9b2f41df5e4) Thanks [@VivekVinushanth](https://github.com/VivekVinushanth)! - improve cds ux
+
+### Patch Changes
+
+- Updated dependencies [[`06f2828341ff02da1d328e9cb9c03a2c0038c324`](https://github.com/wso2/identity-apps/commit/06f2828341ff02da1d328e9cb9c03a2c0038c324), [`889ba146a770d03968eed6bd8ecdf9b2f41df5e4`](https://github.com/wso2/identity-apps/commit/889ba146a770d03968eed6bd8ecdf9b2f41df5e4)]:
+  - @wso2is/admin.applications.v1@2.41.25
+  - @wso2is/admin.core.v1@2.55.0
+
 ## 1.5.0
 
 ### Minor Changes

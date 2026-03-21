@@ -1,5 +1,148 @@
 # @wso2is/admin.onboarding.v1
 
+## 1.0.53
+
+### Patch Changes
+
+- Updated dependencies [[`41126304808de0c2e09081771c18c77e2b3236a1`](https://github.com/wso2/identity-apps/commit/41126304808de0c2e09081771c18c77e2b3236a1)]:
+  - @wso2is/i18n@2.37.7
+  - @wso2is/admin.users.v1@2.38.5
+  - @wso2is/admin.core.v1@2.55.5
+  - @wso2is/admin.roles.v2@2.27.352
+  - @wso2is/admin.applications.v1@2.41.30
+  - @wso2is/admin.connections.v1@2.36.22
+  - @wso2is/admin.branding.v1@2.32.138
+  - @wso2is/admin.server-configurations.v1@2.38.21
+
+## 1.0.52
+
+### Patch Changes
+
+- Updated dependencies [[`4d2eb0510ada818bfad2603875a3cd5f5a60d70b`](https://github.com/wso2/identity-apps/commit/4d2eb0510ada818bfad2603875a3cd5f5a60d70b)]:
+  - @wso2is/i18n@2.37.6
+  - @wso2is/admin.users.v1@2.38.4
+  - @wso2is/admin.core.v1@2.55.4
+  - @wso2is/admin.roles.v2@2.27.351
+  - @wso2is/admin.applications.v1@2.41.29
+  - @wso2is/admin.connections.v1@2.36.21
+  - @wso2is/admin.branding.v1@2.32.137
+  - @wso2is/admin.server-configurations.v1@2.38.20
+
+## 1.0.51
+
+### Patch Changes
+
+- [#9875](https://github.com/wso2/identity-apps/pull/9875) [`75dc24fe314a0c3e90fba9b52eb2974801bd464d`](https://github.com/wso2/identity-apps/commit/75dc24fe314a0c3e90fba9b52eb2974801bd464d) Thanks [@RavindiFernando](https://github.com/RavindiFernando)! - Revert Axios and SDK version bumps
+
+- Updated dependencies [[`c834b18928cdfc09710c5e7067668206d006e68a`](https://github.com/wso2/identity-apps/commit/c834b18928cdfc09710c5e7067668206d006e68a), [`877d726905edf898c33c615cd887f8ed0a071a0e`](https://github.com/wso2/identity-apps/commit/877d726905edf898c33c615cd887f8ed0a071a0e), [`75dc24fe314a0c3e90fba9b52eb2974801bd464d`](https://github.com/wso2/identity-apps/commit/75dc24fe314a0c3e90fba9b52eb2974801bd464d), [`b75bb804c799c0e795e8580d35eedb8993d0ecc4`](https://github.com/wso2/identity-apps/commit/b75bb804c799c0e795e8580d35eedb8993d0ecc4)]:
+  - @wso2is/admin.applications.v1@2.41.28
+  - @wso2is/admin.users.v1@2.38.3
+  - @wso2is/i18n@2.37.5
+  - @wso2is/admin.application-templates.v1@1.6.1
+  - @wso2is/admin.server-configurations.v1@2.38.19
+  - @wso2is/admin.organizations.v1@2.28.2
+  - @wso2is/admin.template-core.v1@1.6.1
+  - @wso2is/admin.connections.v1@2.36.20
+  - @wso2is/admin.extensions.v1@2.40.30
+  - @wso2is/admin.validation.v1@2.28.3
+  - @wso2is/common.branding.v1@2.28.3
+  - @wso2is/admin.branding.v1@2.32.136
+  - @wso2is/admin.claims.v1@2.30.6
+  - @wso2is/admin.roles.v2@2.27.350
+  - @wso2is/admin.core.v1@2.55.3
+  - @wso2is/access-control@3.5.3
+  - @wso2is/core@2.12.10
+
+## 1.0.50
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @wso2is/admin.users.v1@2.38.2
+  - @wso2is/admin.core.v1@2.55.2
+  - @wso2is/admin.roles.v2@2.27.349
+  - @wso2is/admin.applications.v1@2.41.27
+  - @wso2is/admin.connections.v1@2.36.19
+  - @wso2is/admin.branding.v1@2.32.135
+  - @wso2is/admin.server-configurations.v1@2.38.18
+
+## 1.0.49
+
+### Patch Changes
+
+- Updated dependencies [[`410f5901427656fae17dd31db77efe138f111b9f`](https://github.com/wso2/identity-apps/commit/410f5901427656fae17dd31db77efe138f111b9f), [`8a1e91278bc6b376e8e82bddbf94f98ceb76f6fc`](https://github.com/wso2/identity-apps/commit/8a1e91278bc6b376e8e82bddbf94f98ceb76f6fc)]:
+  - @wso2is/admin.applications.v1@2.41.26
+  - @wso2is/admin.core.v1@2.55.1
+  - @wso2is/i18n@2.37.3
+  - @wso2is/admin.users.v1@2.38.1
+  - @wso2is/admin.branding.v1@2.32.134
+  - @wso2is/admin.roles.v2@2.27.348
+  - @wso2is/admin.server-configurations.v1@2.38.17
+  - @wso2is/admin.connections.v1@2.36.18
+
+## 1.0.48
+
+### Patch Changes
+
+- [#9669](https://github.com/wso2/identity-apps/pull/9669) [`06f2828341ff02da1d328e9cb9c03a2c0038c324`](https://github.com/wso2/identity-apps/commit/06f2828341ff02da1d328e9cb9c03a2c0038c324) Thanks [@savindi7](https://github.com/savindi7)! - Show user onboarding wizard based on claim, and give option to re-access it.
+
+- Updated dependencies [[`06f2828341ff02da1d328e9cb9c03a2c0038c324`](https://github.com/wso2/identity-apps/commit/06f2828341ff02da1d328e9cb9c03a2c0038c324), [`889ba146a770d03968eed6bd8ecdf9b2f41df5e4`](https://github.com/wso2/identity-apps/commit/889ba146a770d03968eed6bd8ecdf9b2f41df5e4)]:
+  - @wso2is/admin.applications.v1@2.41.25
+  - @wso2is/admin.users.v1@2.38.0
+  - @wso2is/admin.core.v1@2.55.0
+  - @wso2is/admin.branding.v1@2.32.133
+  - @wso2is/admin.roles.v2@2.27.347
+  - @wso2is/admin.server-configurations.v1@2.38.16
+  - @wso2is/admin.connections.v1@2.36.17
+
+## 1.0.47
+
+### Patch Changes
+
+- Updated dependencies [[`05441eece425cdba6eec9b03cebdfd30ba2a404e`](https://github.com/wso2/identity-apps/commit/05441eece425cdba6eec9b03cebdfd30ba2a404e)]:
+  - @wso2is/admin.users.v1@2.37.23
+  - @wso2is/admin.core.v1@2.54.32
+  - @wso2is/admin.connections.v1@2.36.16
+  - @wso2is/admin.branding.v1@2.32.132
+  - @wso2is/admin.server-configurations.v1@2.38.15
+
+## 1.0.46
+
+### Patch Changes
+
+- Updated dependencies [[`2cad6ed902817e50e522628726732802503f5893`](https://github.com/wso2/identity-apps/commit/2cad6ed902817e50e522628726732802503f5893)]:
+  - @wso2is/admin.validation.v1@2.28.2
+  - @wso2is/admin.core.v1@2.54.31
+  - @wso2is/core@2.12.9
+  - @wso2is/admin.branding.v1@2.32.131
+  - @wso2is/admin.server-configurations.v1@2.38.14
+  - @wso2is/admin.users.v1@2.37.22
+  - @wso2is/admin.connections.v1@2.36.15
+
+## 1.0.45
+
+### Patch Changes
+
+- Updated dependencies [[`b808ec34dc0dbd9bc74a256d10be6bc24c80e1e6`](https://github.com/wso2/identity-apps/commit/b808ec34dc0dbd9bc74a256d10be6bc24c80e1e6)]:
+  - @wso2is/admin.applications.v1@2.41.24
+  - @wso2is/admin.branding.v1@2.32.130
+  - @wso2is/admin.core.v1@2.54.30
+  - @wso2is/admin.connections.v1@2.36.14
+  - @wso2is/admin.server-configurations.v1@2.38.13
+  - @wso2is/admin.users.v1@2.37.21
+
+## 1.0.44
+
+### Patch Changes
+
+- Updated dependencies [[`b38ab3b15ff9ab1ee0ec74a4d6dfeed0613c8014`](https://github.com/wso2/identity-apps/commit/b38ab3b15ff9ab1ee0ec74a4d6dfeed0613c8014)]:
+  - @wso2is/i18n@2.37.2
+  - @wso2is/admin.users.v1@2.37.20
+  - @wso2is/admin.core.v1@2.54.29
+  - @wso2is/admin.connections.v1@2.36.13
+  - @wso2is/admin.branding.v1@2.32.129
+  - @wso2is/admin.server-configurations.v1@2.38.12
+
 ## 1.0.43
 
 ### Patch Changes

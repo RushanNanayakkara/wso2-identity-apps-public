@@ -19,7 +19,6 @@
 import Checkbox from "@oxygen-ui/react/Checkbox";
 import FormControlLabel from "@oxygen-ui/react/FormControlLabel";
 import FormGroup from "@oxygen-ui/react/FormGroup";
-import Grid from "@oxygen-ui/react/Grid";
 import { IdentifiableComponentInterface } from "@wso2is/core/models";
 import { Heading, Hint } from "@wso2is/react-components";
 import React, {
@@ -138,39 +137,7 @@ const NotificationDetailsForm: ForwardRefExoticComponent<RefAttributes<Notificat
                     className="notification-details-form"
                     data-componentid={ componentId }
                 >
-                    <Grid className="operations-autocomplete-header">
-                        <Heading as="h6">
-                            { t("approvalWorkflows:pageLayout.create.stepper.step3.title") }
-                        </Heading>
-                    </Grid>
                     <div className="notification-channels">
-                        { /* Initiator Notifications */ }
-                        <div className="notification-config">
-                            <Heading as="h6" className="sub-heading">
-                                { t("approvalWorkflows:forms.notifications.initiator.label") }
-                            </Heading>
-                            <FormGroup className="fields">
-                                { NOTIFICATION_CHANNELS.map((channel: string) => (
-                                    <FormControlLabel
-                                        key={ channel }
-                                        control={ (
-                                            <Checkbox
-                                                checked={ notificationsForInitiator.includes(channel) }
-                                                onChange={ () => handleInitiatorChannelChange(channel) }
-                                                disabled={ isReadOnly }
-                                                data-componentid={ `${componentId}-initiator-channel-${channel}` }
-                                            />
-                                        ) }
-                                        label={ t(
-                                            `approvalWorkflows:forms.notifications.channels.${channel}`
-                                        ) }
-                                    />
-                                )) }
-                            </FormGroup>
-                            <Hint compact>
-                                { t("approvalWorkflows:forms.notifications.initiator.hint") }
-                            </Hint>
-                        </div>
                         { /* Approver Notifications */ }
                         <div className="notification-config">
                             <Heading as="h6" className="sub-heading">
@@ -196,6 +163,33 @@ const NotificationDetailsForm: ForwardRefExoticComponent<RefAttributes<Notificat
                             </FormGroup>
                             <Hint compact>
                                 { t("approvalWorkflows:forms.notifications.approver.hint") }
+                            </Hint>
+                        </div>
+                        { /* Initiator Notifications */ }
+                        <div className="notification-config">
+                            <Heading as="h6" className="sub-heading">
+                                { t("approvalWorkflows:forms.notifications.initiator.label") }
+                            </Heading>
+                            <FormGroup className="fields">
+                                { NOTIFICATION_CHANNELS.map((channel: string) => (
+                                    <FormControlLabel
+                                        key={ channel }
+                                        control={ (
+                                            <Checkbox
+                                                checked={ notificationsForInitiator.includes(channel) }
+                                                onChange={ () => handleInitiatorChannelChange(channel) }
+                                                disabled={ isReadOnly }
+                                                data-componentid={ `${componentId}-initiator-channel-${channel}` }
+                                            />
+                                        ) }
+                                        label={ t(
+                                            `approvalWorkflows:forms.notifications.channels.${channel}`
+                                        ) }
+                                    />
+                                )) }
+                            </FormGroup>
+                            <Hint compact>
+                                { t("approvalWorkflows:forms.notifications.initiator.hint") }
                             </Hint>
                         </div>
                     </div>

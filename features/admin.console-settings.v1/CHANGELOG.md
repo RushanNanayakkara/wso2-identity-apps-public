@@ -1,5 +1,90 @@
 # @wso2is/admin.console-settings.v1
 
+## 2.26.16
+
+### Patch Changes
+
+- Updated dependencies [[`41126304808de0c2e09081771c18c77e2b3236a1`](https://github.com/wso2/identity-apps/commit/41126304808de0c2e09081771c18c77e2b3236a1)]:
+  - @wso2is/i18n@2.37.7
+  - @wso2is/admin.users.v1@2.38.5
+  - @wso2is/admin.core.v1@2.55.5
+  - @wso2is/admin.roles.v2@2.27.352
+  - @wso2is/admin.applications.v1@2.41.30
+  - @wso2is/admin.connections.v1@2.36.22
+  - @wso2is/admin.server-configurations.v1@2.38.21
+
+## 2.26.15
+
+### Patch Changes
+
+- [#9876](https://github.com/wso2/identity-apps/pull/9876) [`4d2eb0510ada818bfad2603875a3cd5f5a60d70b`](https://github.com/wso2/identity-apps/commit/4d2eb0510ada818bfad2603875a3cd5f5a60d70b) Thanks [@sadilchamishka](https://github.com/sadilchamishka)! - Improve approval notification ux
+
+- Updated dependencies [[`4d2eb0510ada818bfad2603875a3cd5f5a60d70b`](https://github.com/wso2/identity-apps/commit/4d2eb0510ada818bfad2603875a3cd5f5a60d70b)]:
+  - @wso2is/i18n@2.37.6
+  - @wso2is/admin.users.v1@2.38.4
+  - @wso2is/admin.core.v1@2.55.4
+  - @wso2is/admin.roles.v2@2.27.351
+  - @wso2is/admin.applications.v1@2.41.29
+  - @wso2is/admin.connections.v1@2.36.21
+  - @wso2is/admin.server-configurations.v1@2.38.20
+
+## 2.26.14
+
+### Patch Changes
+
+- [#9871](https://github.com/wso2/identity-apps/pull/9871) [`cb14c93c0b4e51aeb7e94e349c2d39e8a703c9de`](https://github.com/wso2/identity-apps/commit/cb14c93c0b4e51aeb7e94e349c2d39e8a703c9de) Thanks [@bhagyasakalanka](https://github.com/bhagyasakalanka)! - Add support to disable enterprise login feature
+
+* [#9830](https://github.com/wso2/identity-apps/pull/9830) [`c834b18928cdfc09710c5e7067668206d006e68a`](https://github.com/wso2/identity-apps/commit/c834b18928cdfc09710c5e7067668206d006e68a) Thanks [@pavinduLakshan](https://github.com/pavinduLakshan)! - UI bug fixes related to B2B user sharing
+
+- [#9875](https://github.com/wso2/identity-apps/pull/9875) [`75dc24fe314a0c3e90fba9b52eb2974801bd464d`](https://github.com/wso2/identity-apps/commit/75dc24fe314a0c3e90fba9b52eb2974801bd464d) Thanks [@RavindiFernando](https://github.com/RavindiFernando)! - Revert Axios and SDK version bumps
+
+- Updated dependencies [[`c834b18928cdfc09710c5e7067668206d006e68a`](https://github.com/wso2/identity-apps/commit/c834b18928cdfc09710c5e7067668206d006e68a), [`877d726905edf898c33c615cd887f8ed0a071a0e`](https://github.com/wso2/identity-apps/commit/877d726905edf898c33c615cd887f8ed0a071a0e), [`75dc24fe314a0c3e90fba9b52eb2974801bd464d`](https://github.com/wso2/identity-apps/commit/75dc24fe314a0c3e90fba9b52eb2974801bd464d), [`b75bb804c799c0e795e8580d35eedb8993d0ecc4`](https://github.com/wso2/identity-apps/commit/b75bb804c799c0e795e8580d35eedb8993d0ecc4)]:
+  - @wso2is/common.ui.shared-access.v1@0.1.5
+  - @wso2is/admin.applications.v1@2.41.28
+  - @wso2is/admin.users.v1@2.38.3
+  - @wso2is/i18n@2.37.5
+  - @wso2is/admin.server-configurations.v1@2.38.19
+  - @wso2is/admin.identity-providers.v1@2.27.3
+  - @wso2is/admin.login-flow.ai.v1@2.27.110
+  - @wso2is/admin.organizations.v1@2.28.2
+  - @wso2is/admin.feature-gate.v1@1.9.2
+  - @wso2is/admin.connections.v1@2.36.20
+  - @wso2is/admin.extensions.v1@2.40.30
+  - @wso2is/admin.userstores.v1@2.27.42
+  - @wso2is/admin.roles.v2@2.27.350
+  - @wso2is/admin.core.v1@2.55.3
+  - @wso2is/access-control@3.5.3
+  - @wso2is/theme@2.9.5
+  - @wso2is/core@2.12.10
+  - @wso2is/form@2.10.1
+
+## 2.26.13
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @wso2is/admin.users.v1@2.38.2
+  - @wso2is/admin.core.v1@2.55.2
+  - @wso2is/admin.roles.v2@2.27.349
+  - @wso2is/admin.applications.v1@2.41.27
+  - @wso2is/admin.connections.v1@2.36.19
+  - @wso2is/admin.server-configurations.v1@2.38.18
+
+## 2.26.12
+
+### Patch Changes
+
+- [#9671](https://github.com/wso2/identity-apps/pull/9671) [`8a1e91278bc6b376e8e82bddbf94f98ceb76f6fc`](https://github.com/wso2/identity-apps/commit/8a1e91278bc6b376e8e82bddbf94f98ceb76f6fc) Thanks [@bhagyasakalanka](https://github.com/bhagyasakalanka)! - Add UI for enterprise login
+
+- Updated dependencies [[`410f5901427656fae17dd31db77efe138f111b9f`](https://github.com/wso2/identity-apps/commit/410f5901427656fae17dd31db77efe138f111b9f), [`8a1e91278bc6b376e8e82bddbf94f98ceb76f6fc`](https://github.com/wso2/identity-apps/commit/8a1e91278bc6b376e8e82bddbf94f98ceb76f6fc)]:
+  - @wso2is/admin.applications.v1@2.41.26
+  - @wso2is/admin.core.v1@2.55.1
+  - @wso2is/i18n@2.37.3
+  - @wso2is/admin.users.v1@2.38.1
+  - @wso2is/admin.roles.v2@2.27.348
+  - @wso2is/admin.server-configurations.v1@2.38.17
+  - @wso2is/admin.connections.v1@2.36.18
+
 ## 2.26.11
 
 ### Patch Changes

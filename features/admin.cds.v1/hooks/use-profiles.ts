@@ -37,7 +37,7 @@ export const useCDSProfiles = (
 
     return useSWR<ProfilesListResponse, AxiosError>(
         key,
-        () => fetchCDSProfiles(params),
+        params ? () => fetchCDSProfiles(params) : null,
         config
     );
 };

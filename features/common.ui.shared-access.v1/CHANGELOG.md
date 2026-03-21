@@ -1,5 +1,21 @@
 # @wso2is/common.ui.shared-access.v1
 
+## 0.1.5
+
+### Patch Changes
+
+- [#9830](https://github.com/wso2/identity-apps/pull/9830) [`c834b18928cdfc09710c5e7067668206d006e68a`](https://github.com/wso2/identity-apps/commit/c834b18928cdfc09710c5e7067668206d006e68a) Thanks [@pavinduLakshan](https://github.com/pavinduLakshan)! - UI bug fixes related to B2B user sharing
+
+* [#9875](https://github.com/wso2/identity-apps/pull/9875) [`75dc24fe314a0c3e90fba9b52eb2974801bd464d`](https://github.com/wso2/identity-apps/commit/75dc24fe314a0c3e90fba9b52eb2974801bd464d) Thanks [@RavindiFernando](https://github.com/RavindiFernando)! - Revert Axios and SDK version bumps
+
+* Updated dependencies [[`cb14c93c0b4e51aeb7e94e349c2d39e8a703c9de`](https://github.com/wso2/identity-apps/commit/cb14c93c0b4e51aeb7e94e349c2d39e8a703c9de), [`c834b18928cdfc09710c5e7067668206d006e68a`](https://github.com/wso2/identity-apps/commit/c834b18928cdfc09710c5e7067668206d006e68a), [`877d726905edf898c33c615cd887f8ed0a071a0e`](https://github.com/wso2/identity-apps/commit/877d726905edf898c33c615cd887f8ed0a071a0e), [`75dc24fe314a0c3e90fba9b52eb2974801bd464d`](https://github.com/wso2/identity-apps/commit/75dc24fe314a0c3e90fba9b52eb2974801bd464d), [`b75bb804c799c0e795e8580d35eedb8993d0ecc4`](https://github.com/wso2/identity-apps/commit/b75bb804c799c0e795e8580d35eedb8993d0ecc4)]:
+  - @wso2is/admin.console-settings.v1@2.26.14
+  - @wso2is/admin.applications.v1@2.41.28
+  - @wso2is/admin.organizations.v1@2.28.2
+  - @wso2is/admin.roles.v2@2.27.350
+  - @wso2is/admin.core.v1@2.55.3
+  - @wso2is/form@2.10.1
+
 ## 0.1.4
 
 ### Patch Changes

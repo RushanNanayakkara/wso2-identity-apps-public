@@ -1,5 +1,48 @@
 # @wso2is/i18n
 
+## 2.37.7
+
+### Patch Changes
+
+- [#9809](https://github.com/wso2/identity-apps/pull/9809) [`41126304808de0c2e09081771c18c77e2b3236a1`](https://github.com/wso2/identity-apps/commit/41126304808de0c2e09081771c18c77e2b3236a1) Thanks [@nishagii](https://github.com/nishagii)! - Move approval workflow rule handlings to workflow module from rule module
+
+## 2.37.6
+
+### Patch Changes
+
+- [#9876](https://github.com/wso2/identity-apps/pull/9876) [`4d2eb0510ada818bfad2603875a3cd5f5a60d70b`](https://github.com/wso2/identity-apps/commit/4d2eb0510ada818bfad2603875a3cd5f5a60d70b) Thanks [@sadilchamishka](https://github.com/sadilchamishka)! - Improve approval notification ux
+
+## 2.37.5
+
+### Patch Changes
+
+- [#9830](https://github.com/wso2/identity-apps/pull/9830) [`c834b18928cdfc09710c5e7067668206d006e68a`](https://github.com/wso2/identity-apps/commit/c834b18928cdfc09710c5e7067668206d006e68a) Thanks [@pavinduLakshan](https://github.com/pavinduLakshan)! - UI bug fixes related to B2B user sharing
+
+* [#9863](https://github.com/wso2/identity-apps/pull/9863) [`877d726905edf898c33c615cd887f8ed0a071a0e`](https://github.com/wso2/identity-apps/commit/877d726905edf898c33c615cd887f8ed0a071a0e) Thanks [@sahandilshan](https://github.com/sahandilshan)! - Add ciba endpoint to the Info tab
+
+- [#9875](https://github.com/wso2/identity-apps/pull/9875) [`75dc24fe314a0c3e90fba9b52eb2974801bd464d`](https://github.com/wso2/identity-apps/commit/75dc24fe314a0c3e90fba9b52eb2974801bd464d) Thanks [@RavindiFernando](https://github.com/RavindiFernando)! - Revert Axios and SDK version bumps
+
+- Updated dependencies [[`75dc24fe314a0c3e90fba9b52eb2974801bd464d`](https://github.com/wso2/identity-apps/commit/75dc24fe314a0c3e90fba9b52eb2974801bd464d)]:
+  - @wso2is/core@2.12.10
+
+## 2.37.4
+
+### Patch Changes
+
+- [#9849](https://github.com/wso2/identity-apps/pull/9849) [`8773dc284b272d8668f9051c52257549d6db97d5`](https://github.com/wso2/identity-apps/commit/8773dc284b272d8668f9051c52257549d6db97d5) Thanks [@Malith-19](https://github.com/Malith-19)! - Update the password reset confirmation message.
+
+## 2.37.3
+
+### Patch Changes
+
+- [#9671](https://github.com/wso2/identity-apps/pull/9671) [`8a1e91278bc6b376e8e82bddbf94f98ceb76f6fc`](https://github.com/wso2/identity-apps/commit/8a1e91278bc6b376e8e82bddbf94f98ceb76f6fc) Thanks [@bhagyasakalanka](https://github.com/bhagyasakalanka)! - Add UI for enterprise login
+
+## 2.37.2
+
+### Patch Changes
+
+- [#9824](https://github.com/wso2/identity-apps/pull/9824) [`b38ab3b15ff9ab1ee0ec74a4d6dfeed0613c8014`](https://github.com/wso2/identity-apps/commit/b38ab3b15ff9ab1ee0ec74a4d6dfeed0613c8014) Thanks [@Malith-19](https://github.com/Malith-19)! - Update the workflow rule delete confirmation modal header.
+
 ## 2.37.1
 
 ### Patch Changes
