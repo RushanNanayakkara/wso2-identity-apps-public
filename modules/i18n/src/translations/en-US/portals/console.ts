@@ -451,7 +451,7 @@ export const console: ConsoleNS = {
             suffix: "to get access."
         },
         featureLockedTooltip: {
-            toggleEnable: "This resource cannot be enabled as you have exceeded the resource allocation for your current tier."
+            toggleEnable: "This resource cannot be enabled as you have exceeded the resource allocation for your current plan."
         },
         freeTrialBanner: {
             upgradeAction: "upgrade",
