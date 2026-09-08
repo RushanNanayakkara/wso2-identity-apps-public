@@ -1,5 +1,6 @@
 ---
 "@wso2is/admin.core.v1": patch
+"@wso2is/console": patch
 ---
 
 Point the Internal Notification Sending "Learn More" link at the notification settings guide. The page is now
