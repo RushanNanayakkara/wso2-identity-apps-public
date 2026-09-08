@@ -38,15 +38,11 @@ interface PlanLimitExceededAlertPropsInterface extends IdentifiableComponentInte
      */
     title: string;
     /**
-     * Sentence explaining why the resources were disabled. The "Compare plans"
-     * link is appended to it.
+     * Sentence explaining why the resources were disabled.
      */
     description: string;
     /**
-     * i18n key of the "Upgrade your plan" resolution. Passed as a key rather than a
-     * resolved string because the resolution emphasises its leading action with a
-     * <strong> tag, which has to stay inside the translated sentence so languages
-     * with a different word order can move it.
+     * i18n key of the "Upgrade your plan" resolution.
      */
     upgradeResolutionKey: string;
     /**
