@@ -25,8 +25,7 @@ class FeatureGateConstants {
 
     /**
      * Tail of the feature gate "all features" endpoint. Used to locate the request's SWR
-     * cache entry when it needs to be revalidated. Deliberately distinct from the
-     * "allowedFeatures" endpoint so a substring match cannot collide with it.
+     * cache entry when it needs to be revalidated.
      */
     public static readonly ALL_FEATURES_ENDPOINT_SUFFIX: string = "/allFeatures";
 
