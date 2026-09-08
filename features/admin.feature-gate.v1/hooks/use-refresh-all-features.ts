@@ -23,19 +23,6 @@ import FeatureGateConstants from "../constants/feature-gate-constants";
 /**
  * Hook that returns a function to re-fetch the feature gate's list of all features.
  *
- * The feature list is fetched once at the app root, so mutating resources that feed into
- * tier limits (applications, connections, organizations) leaves the cached statuses stale.
- * Call the returned function after such a change so the gated UI reflects the new state
- * without a page reload.
- *
- * @example
- * ```ts
- * const refreshAllFeatures: () => Promise<void> = useRefreshAllFeatures();
- *
- * await deleteApplication(appId);
- * refreshAllFeatures();
- * ```
- *
  * @returns A function that revalidates the all features request.
  */
 const useRefreshAllFeatures = (): () => Promise<void> => {
