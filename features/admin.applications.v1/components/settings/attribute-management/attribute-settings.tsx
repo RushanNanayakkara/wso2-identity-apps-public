@@ -278,6 +278,17 @@ export const AttributeSettings: FunctionComponent<AttributeSettingsPropsInterfac
     }, [ externalClaims ]);
 
     /**
+     * Applications that define their own claim dialect carry per application attribute names. The OIDC scope
+     * grouped selector has no way to display or edit those names, and saving from it drops them. Route such
+     * applications to the local dialect selector, which supports them, and leave every other application on
+     * the scope grouped selector.
+     *
+     * `onlyOIDCConfigured` is intentionally left untouched. It also drives subject claim handling, and these
+     * applications are still OIDC applications.
+     */
+    const useScopeGroupedSelector: boolean = onlyOIDCConfigured && claimConfigurations?.dialect !== "CUSTOM";
+
+    /**
      * Set the dialects for inbound protocols
      */
     useEffect(() => {
@@ -287,7 +298,7 @@ export const AttributeSettings: FunctionComponent<AttributeSettingsPropsInterfac
         //TODO  move this logic to backend
         setIsClaimRequestLoading(true);
 
-        if (onlyOIDCConfigured) {
+        if (useScopeGroupedSelector) {
             changeSelectedDialect("http://wso2.org/oidc/claim");
 
             return;
@@ -295,7 +306,7 @@ export const AttributeSettings: FunctionComponent<AttributeSettingsPropsInterfac
 
         setIsClaimRequestLoading(false);
         changeSelectedDialect(localDialectURI);
-    }, [ onlyOIDCConfigured, dialect ]);
+    }, [ useScopeGroupedSelector, dialect ]);
 
     useEffect(() => {
         if (advanceSettingValues) {
@@ -1140,7 +1151,7 @@ export const AttributeSettings: FunctionComponent<AttributeSettingsPropsInterfac
         const RequestedClaims: RequestedClaimConfigurationInterface[] = [];
         const subjectClaim: AppClaimInterface = advanceSettingValues?.subject?.claim;
 
-        const isSubjectClaimOmitted: boolean = !onlyOIDCConfigured
+        const isSubjectClaimOmitted: boolean = !useScopeGroupedSelector
             && !claimConfigurations?.subject?.claim?.uri
             && !advanceSettingValues?.isSubjectClaimExplicit;
 
@@ -1341,7 +1352,7 @@ export const AttributeSettings: FunctionComponent<AttributeSettingsPropsInterfac
                         <div className="form-container with-max-width">
                             <Grid.Column mobile={ 16 } tablet={ 16 } computer={ 12 }>
                                 {
-                                    onlyOIDCConfigured
+                                    useScopeGroupedSelector
                                         ? (
                                             <AttributeSelectionOIDC
                                                 claims={ claims }
