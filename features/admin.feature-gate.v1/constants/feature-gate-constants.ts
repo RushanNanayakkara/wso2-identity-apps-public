@@ -23,6 +23,13 @@ class FeatureGateConstants {
      */
     private constructor() {}
 
+    /**
+     * Tail of the feature gate "all features" endpoint. Used to locate the request's SWR
+     * cache entry when it needs to be revalidated. Deliberately distinct from the
+     * "allowedFeatures" endpoint so a substring match cannot collide with it.
+     */
+    public static readonly ALL_FEATURES_ENDPOINT_SUFFIX: string = "/allFeatures";
+
     public static readonly SAAS_FEATURES_IDENTIFIER: string = "console.saasFeatures";
     public static readonly PREVIEW_FEATURES_IDENTIFIER: string = "console.previewFeatures";
 }

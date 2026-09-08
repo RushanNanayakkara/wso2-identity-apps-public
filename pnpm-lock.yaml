@@ -5051,6 +5051,9 @@ importers:
       '@oxygen-ui/react':
         specifier: 'catalog:'
         version: 2.4.6(68d5af65e266984a0e5c55056d1c3c66)
+      '@oxygen-ui/react-icons':
+        specifier: ^2.4.6
+        version: 2.4.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
       '@wso2is/access-control':
         specifier: ^3.5.8
         version: link:../../modules/access-control
@@ -5081,6 +5084,9 @@ importers:
       react-router-dom:
         specifier: ^4.3.1
         version: 4.3.1(react@18.3.1)
+      swr:
+        specifier: ^2.0.0
+        version: 2.4.1(react@18.3.1)
     devDependencies:
       '@rollup/plugin-commonjs':
         specifier: ^25.0.7
@@ -7396,6 +7402,9 @@ importers:
       '@wso2is/admin.extensions.v1':
         specifier: ^2.43.3
         version: link:../admin.extensions.v1
+      '@wso2is/admin.feature-gate.v1':
+        specifier: workspace:^
+        version: link:../admin.feature-gate.v1
       '@wso2is/admin.groups.v1':
         specifier: ^2.27.128
         version: link:../admin.groups.v1
